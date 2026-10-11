@@ -1,0 +1,17 @@
+{
+    "name": "acme/billing",
+    "description": "Acme internal billing & invoicing service.",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "symfony/framework-bundle": "^7.1",
+        "symfony/runtime": "^7.1",
+        "symfony/security-bundle": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
